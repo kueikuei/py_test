@@ -26,7 +26,7 @@ class Crawler:
 
         # while i<len(all_tags_title):
         # AryQQQQ = []
-        for i in range(10):
+        for i in range(len(h2_tags_title)):
             print h2_tags_title[i].text
             print h3_tags_imgs[i]['src']
 
