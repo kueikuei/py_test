@@ -3,7 +3,9 @@ class Crawler:
     def __init__(self,HTMLStr):
         # 套件引入
         from bs4 import BeautifulSoup
+
         # title、img、運費 dict 對應集合
+        # 嘗試要塞入dict並轉為JSON但最終失敗
         productInfoDict = {}
 
         # print(urlHTMLAry)
